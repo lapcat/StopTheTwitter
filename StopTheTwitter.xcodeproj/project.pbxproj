@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FB81F82465EBE500778330 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52FB81F22465EBE500778330 /* LICENSE.txt */; };
+		52FB82002465ECA800778330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB81FD2465ECA800778330 /* Assets.xcassets */; };
+		52FB820C2465ECC300778330 /* JJMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB82072465ECC300778330 /* JJMainWindow.m */; };
+		52FB820D2465ECC300778330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB82082465ECC300778330 /* main.m */; };
+		52FB820E2465ECC300778330 /* JJApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB82092465ECC300778330 /* JJApplicationDelegate.m */; };
+		52FB820F2465ECC300778330 /* JJMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB820A2465ECC300778330 /* JJMainMenu.m */; };
+		52FB82102465ECC300778330 /* JJLicenseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB820B2465ECC300778330 /* JJLicenseWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52BC4E032465E90F0097AE06 /* StopTheTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopTheTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB81F02465EBE500778330 /* DEVELOPMENT_TEAM.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEVELOPMENT_TEAM.xcconfig; sourceTree = "<group>"; };
+		52FB81F12465EBE500778330 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		52FB81F22465EBE500778330 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		52FB81F32465EBE500778330 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		52FB81F42465EBE500778330 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52FB81F52465EBE500778330 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		52FB81FD2465ECA800778330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FB81FE2465ECA800778330 /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		52FB81FF2465ECA800778330 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB82032465ECC300778330 /* JJMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainWindow.h; sourceTree = "<group>"; };
+		52FB82042465ECC300778330 /* JJApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJApplicationDelegate.h; sourceTree = "<group>"; };
+		52FB82052465ECC300778330 /* JJLicenseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLicenseWindow.h; sourceTree = "<group>"; };
+		52FB82062465ECC300778330 /* JJMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainMenu.h; sourceTree = "<group>"; };
+		52FB82072465ECC300778330 /* JJMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainWindow.m; sourceTree = "<group>"; };
+		52FB82082465ECC300778330 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FB82092465ECC300778330 /* JJApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJApplicationDelegate.m; sourceTree = "<group>"; };
+		52FB820A2465ECC300778330 /* JJMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainMenu.m; sourceTree = "<group>"; };
+		52FB820B2465ECC300778330 /* JJLicenseWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLicenseWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		52BC4DFA2465E90F0097AE06 = {
+			isa = PBXGroup;
+			children = (
+				52FB81F02465EBE500778330 /* DEVELOPMENT_TEAM.xcconfig */,
+				52FB81F12465EBE500778330 /* Debug.xcconfig */,
+				52FB81F32465EBE500778330 /* Release.xcconfig */,
+				52FB81F52465EBE500778330 /* Shared.xcconfig */,
+				52FB81F22465EBE500778330 /* LICENSE.txt */,
+				52FB81F42465EBE500778330 /* README.md */,
+				52FB81FC2465ECA800778330 /* nonsource */,
+				52FB82022465ECC300778330 /* source */,
+				52BC4E042465E90F0097AE06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BC4E042465E90F0097AE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BC4E032465E90F0097AE06 /* StopTheTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB81FC2465ECA800778330 /* nonsource */ = {
+			isa = PBXGroup;
+			children = (
+				52FB81FD2465ECA800778330 /* Assets.xcassets */,
+				52FB81FE2465ECA800778330 /* Entitlements.entitlements */,
+				52FB81FF2465ECA800778330 /* Info.plist */,
+			);
+			path = nonsource;
+			sourceTree = "<group>";
+		};
+		52FB82022465ECC300778330 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				52FB82042465ECC300778330 /* JJApplicationDelegate.h */,
+				52FB82092465ECC300778330 /* JJApplicationDelegate.m */,
+				52FB82052465ECC300778330 /* JJLicenseWindow.h */,
+				52FB820B2465ECC300778330 /* JJLicenseWindow.m */,
+				52FB82062465ECC300778330 /* JJMainMenu.h */,
+				52FB820A2465ECC300778330 /* JJMainMenu.m */,
+				52FB82032465ECC300778330 /* JJMainWindow.h */,
+				52FB82072465ECC300778330 /* JJMainWindow.m */,
+				52FB82082465ECC300778330 /* main.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BC4E022465E90F0097AE06 /* StopTheTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BC4E142465E9110097AE06 /* Build configuration list for PBXNativeTarget "StopTheTwitter" */;
+			buildPhases = (
+				52BC4DFF2465E90F0097AE06 /* Sources */,
+				52BC4E012465E90F0097AE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopTheTwitter;
+			productName = StopTheTwitter;
+			productReference = 52BC4E032465E90F0097AE06 /* StopTheTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BC4DFB2465E90F0097AE06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jeff Johnson";
+				TargetAttributes = {
+					52BC4E022465E90F0097AE06 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 52BC4DFE2465E90F0097AE06 /* Build configuration list for PBXProject "StopTheTwitter" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BC4DFA2465E90F0097AE06;
+			productRefGroup = 52BC4E042465E90F0097AE06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BC4E022465E90F0097AE06 /* StopTheTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BC4E012465E90F0097AE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB82002465ECA800778330 /* Assets.xcassets in Resources */,
+				52FB81F82465EBE500778330 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BC4DFF2465E90F0097AE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB82102465ECC300778330 /* JJLicenseWindow.m in Sources */,
+				52FB820E2465ECC300778330 /* JJApplicationDelegate.m in Sources */,
+				52FB820F2465ECC300778330 /* JJMainMenu.m in Sources */,
+				52FB820D2465ECC300778330 /* main.m in Sources */,
+				52FB820C2465ECC300778330 /* JJMainWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52BC4E122465E9110097AE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FB81F52465EBE500778330 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		52BC4E132465E9110097AE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FB81F52465EBE500778330 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		52BC4E152465E9110097AE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FB81F12465EBE500778330 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		52BC4E162465E9110097AE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FB81F32465EBE500778330 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BC4DFE2465E90F0097AE06 /* Build configuration list for PBXProject "StopTheTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BC4E122465E9110097AE06 /* Debug */,
+				52BC4E132465E9110097AE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BC4E142465E9110097AE06 /* Build configuration list for PBXNativeTarget "StopTheTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BC4E152465E9110097AE06 /* Debug */,
+				52BC4E162465E9110097AE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BC4DFB2465E90F0097AE06 /* Project object */;
+}

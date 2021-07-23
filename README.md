@@ -1,6 +1,6 @@
 # StopTheTwitter
 
-StopTheTwitter is an app for macOS 10.15 Catalina that stops "Open in the Twitter app" from appearing at the top of `twitter.com` web pages in Safari when the official Twitter Mac app is installed.
+StopTheTwitter is an app for macOS 10.15 Catalina and later that stops "Open in the Twitter app" from appearing at the top of `twitter.com` web pages in Safari when the official Twitter Mac app is installed.
 
 Announcement: [Stop 'Open in the Twitter app' in Safari Catalina](https://lapcatsoftware.com/articles/universal-links.html)
 

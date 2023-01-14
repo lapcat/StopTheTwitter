@@ -19,6 +19,8 @@ Announcement: [Stop 'Open in the Twitter app' in Safari Catalina](https://lapcat
 
 ## Known Issues
 
+- StopTheTwitter may prevent App Store from updating the Twitter app, because they have the same bundle identifier.
+
 -  When the real Twitter app is not open, the fake app receives push notifications from Twitter, but the fake app doesn't have any knowledge or access to Twitter API, so it can't handle the notification actions. If you do anything other than close a Twitter push notification, then the fake app simply opens the real Twitter app and quits. Fortunately, when the real Twitter app is open, it handles push notifications itself.
 
 ## Building
